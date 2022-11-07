@@ -1,0 +1,369 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    height: 200vh;
+
+
+}
+body{
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.content {
+    height: 45px;
+
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    padding-top: 5px;
+    background-color: rgb(55, 50, 50);
+}
+
+a {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.options {
+    font-weight:lighter;
+    padding-top: 5px;
+    font-size: 1px;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.a {
+    color: blue;
+    cursor: pointer;
+}
+
+.section {
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #F5F5F7;
+    height: 66px;
+    width: 1250px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+.cnt {
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 14px;
+    line-height: 1.42859;
+
+
+
+}
+
+.carrier_att {
+    gap: 10px;
+    display: flex;
+}
+
+.carrier_sprint {
+    display: flex;
+    gap: 10px;
+}
+
+.carrier_t-mobile {
+    display: flex;
+    gap: 10px;
+}
+
+.carrier_verizon {
+    display: flex;
+    gap: 10px;
+}
+
+.new {
+    box-sizing: border-box;
+    white-space: nowrap;
+    display: block;
+    color: #bf4800;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.fwl {
+
+    font-size: 40px;
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.class {
+    margin: 65px 55px;
+    height: 117px;
+    width: 1250px;
+    display: flex;
+    position: relative;
+
+}
+
+.rf-bfe-header {
+    display: flex;
+}
+.bot{
+    gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bot1{
+    gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.span_price {
+    font-size: 14px;
+
+display: flex;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+    padding-top: 20px;
+
+}
+.activeB {
+    border: 2px solid #0071E3;
+}
+
+.custom-modal {
+    display: none;
+    width: 900px;
+    height: fit-content;
+    padding: 40px 60px;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+z-index: 170;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    opacity: 0;
+    transition: .3s ease;
+    scale: .3;
+}
+
+.custom-modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 200;
+}
+
+.modal-bg {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    /* opacity: 0; */
+    transition: .3s ease;
+    z-index: 150;
+}
+
+.class1 {
+    position: absolute;
+    top: 0px;
+
+    left: 900px;
+    height: 104px;
+    width: 280px;
+}
+
+.trade_in {
+    margin: 0 auto;
+    text-align: center;
+    width: 230px;
+    height: 40px;
+    background-color: #F6F6F8;
+    border-radius: 30px;
+}
+
+.apple_care {
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #F6F6F8;
+    width: 230px;
+    height: 40px;
+}
+
+.content14 {
+    width: 100%;
+    height: 1400px;
+display: flex;
+}
+.scroll{
+    width: 806px;
+    height: 2000px;
+}
+
+.img_phone {
+    background-image: url("img/purple.jpg");
+    background-repeat: no-repeat;
+    width: 803px;
+    height: 400px;
+    max-width: 805px;
+    max-height: 2000px;
+    display: block;
+    border-radius: 18px;
+    background-size: contain;
+    transition: .5s;
+    margin-left: 45px;
+    position: sticky;
+    top: 40px;
+
+}
+
+.accardion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prm {
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 47px;
+    text-align: center;
+    margin: 5px auto;
+    border: #f6f6f8a9 solid 1px;
+    border-radius: 4px;
+    background-color: #F6F6F8;
+    ;
+
+}
+
+.accardion .item {
+    height: 70px;
+    padding: 10px;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.active {
+    height: 210px !important;
+
+}
+.model2{
+    width: 450px;
+    height: 1400px;
+    /* flex-basis: 328px; */
+   
+  
+}
+.md{
+    width: 340px;
+}
+.pr11{position: relative;
+    height: 84px;
+    width: 328px;
+    border-radius: 8px;
+    border:#6e6e73 solid 1px;
+    top: 10px;
+    background-color: transparent;
+}
+.pr11:focus{
+    border: rgb(68, 68, 189) solid 3px;
+}
+.prm11{position: relative;
+    height: 84px;
+    width: 328px;
+    border-radius: 8px;
+    border-color: transparent;
+    margin-top: 29px;
+    background-color: transparent;
+    border:#6e6e73 solid 1px;
+}
+
+.prm11:focus{
+    border: rgb(68, 68, 189) solid 3px;
+}
+.gray{
+    color: #6e6e73;
+}
+.cost2{
+    height: 52px;
+    width: 148px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+
+    text-align: right;
+}
+.nmm{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+.display_dg{
+    position: absolute;
+    left: 14px;
+    top: 55px;
+}
+
+.nd_help{
+    position: relative;
+
+    height: 84px;
+    width: 328px;
+    border-radius: 8px;
+    border-color: transparent;
+    margin-top: 29px;
+    background-color:#F5F5F7;
+  }
+  .hlp{
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+  }
+  .screen_hlp{
+    font-size: 14px;
+    position: absolute;
+    left: 5px;
+    top: 45px;
+  }
+  .finish_color{
+    margin-top: 60px;
+    font-size: 22px;
+  }
+  .title{
+    color: #1d1d1f;
+    font-size: 20px;
+  }
+  .btns1{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  #svv{
+    cursor: pointer;
+  }
+  img{
+    
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+  }
+  .storage{
+    margin-top: 150px;
+    font-size: 30px;
+  }
+  
